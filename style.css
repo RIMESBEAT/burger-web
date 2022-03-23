@@ -328,6 +328,8 @@ li a:hover{
     }
     .burger-text1{
         width: 100%;
+        margin: 0 auto;
+        margin-top: 2em;
     }
     .burger-img-one{
         width: 80%;
