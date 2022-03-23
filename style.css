@@ -322,7 +322,7 @@ li a:hover{
     .container-burger-two{
         display: flex;
         flex-direction: column;
-        align-items: center;
+        
         width: 100%;
         border: 2px solid rgb(4, 163, 39);
     }
