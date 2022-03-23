@@ -240,15 +240,15 @@ li a:hover{
     .container-burger{
         display: flex;
         flex-direction: column;
-        align-items: center;
-        text-align: center;
-       
-        
+        align-items: flex-start;
+        text-align: justify;
+              
     }
     .burger-text {
         width: 100%;
         margin: 0 auto;
         margin-top: 2em;
+        text-align: left;
     }
     .burger-img{
         width: 90%;
