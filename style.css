@@ -169,8 +169,7 @@ li a:hover{
     .container-img{
         display: flex;
         flex-direction: column;
-        
-
+        margin-top: 2em;
         
     }
     .img-0ne{
@@ -189,7 +188,7 @@ li a:hover{
 }
 .section-three{
     background-color: #f64b3d;
-    padding: 5em;
+    padding: 5em 0;
 
 }
 .container-burger{
@@ -222,7 +221,7 @@ li a:hover{
 .burger-text p{
     color: #ffffff;
     width: 95%;
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
 .btn-order1 a {
     width: 20%;
@@ -241,15 +240,15 @@ li a:hover{
     .container-burger{
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
-        text-align: justify;
-              
+        align-items: center;
+        text-align: center;
+       
+        
     }
     .burger-text {
         width: 100%;
         margin: 0 auto;
         margin-top: 2em;
-        text-align: left;
     }
     .burger-img{
         width: 90%;
@@ -258,7 +257,7 @@ li a:hover{
 }
 .section-four{
     background-color: #f6eedf;
-    padding: 5em;
+    padding: 5em 0;
     background-image: url(./icon/Design3.gif);
     background-attachment: scroll;
     background-repeat: no-repeat;
@@ -267,42 +266,40 @@ li a:hover{
 
 }
 .container-burger-two{
-    width: 90%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
     
 }
 .burger-text1{
     color: #f64b3d;
-    width: 50%;
+    width: 35%;
     margin: 2em;
     
 }
 .burger-text1 h2{
-    font-size: 3em;
+    font-size: 2em;
     margin-bottom: 1em;
 }
 .burger-text1 p{
-    width: 90%;
-    font-size: 1.5em;
+    width: 100%;
+    font-size: 1.2em;
     
 }
 .btn-order2{
-    display: flex;
-    margin: .5em auto;
-    width: 65%;
+    
+    width: 100%;
     
 }
 .btn-order2 a{
+
+    width: 20%;
+    padding:.6em 1.5em;
     text-decoration: none;
-    color: #ffffff;
-    padding: 1em;
-    text-align: center;
-    border-radius: 25px;
     background: #f64b3d;
-    width: 50%;
-    margin: 0 1em;
+    border-radius: 25px;
+    color: #ffffff;
     font-weight: bold;
     transition: 0.3s ease;
     
@@ -323,20 +320,21 @@ li a:hover{
     .container-burger-two{
         display: flex;
         flex-direction: column;
+        align-items: center;
+        text-align: center;
         
-        width: 100%;
-        border: 2px solid rgb(4, 163, 39);
     }
     .burger-text1{
         width: 100%;
         margin: 0 auto;
-        margin-top: 2em;
+        margin-top: 2em;;
     }
     .burger-img-one{
         width: 80%;
     }
-    .btn-order2 a{
-        margin: 1em;
+    .btn-order a{
+        
+        padding: 2em;
     }
 }
 .section-five{
