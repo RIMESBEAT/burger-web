@@ -324,9 +324,8 @@ li a:hover{
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        text-align: center;
         width: 100%;
-        
+        border: 2px solid rgb(4, 163, 39);
     }
     .burger-text1{
         width: 100%;
