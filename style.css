@@ -84,6 +84,7 @@ li a:hover{
     .section-one{
         background-image: url(./img/back1.png);
         background-size: cover;
+        
     }
     .hero{
         display: flex;
@@ -111,6 +112,30 @@ li a:hover{
   }
 
   
+}
+@media only screen and (min-width: 600px){
+    .section-one{
+        background-image: url(./img/back1.png);
+        background-size: cover;
+        height: 60vh;
+    }
+    .hero{
+    
+        margin:10em auto;
+        width: 90%;
+        
+    }
+    .hero h2{
+        font-size: 4rem;
+        color: white;
+        font-weight: bold;
+    }
+    .hero p{
+        font-size: 1.5rem;
+        color: white;
+        margin: 1em 0;
+        width: 80%;
+    }
 }
 .section-two{
     text-align: center;
