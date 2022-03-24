@@ -188,7 +188,7 @@ li a:hover{
           
 }
 .burger-img img{
-    width: 100%;    
+    width: 80%;    
     border-radius: 200px;
 }
 .burger-text{
@@ -382,4 +382,7 @@ li a:hover{
         padding: 2em;
         font-size: 1rem;
     }
+}
+.container-package{
+    
 }
