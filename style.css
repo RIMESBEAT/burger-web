@@ -80,7 +80,7 @@ li a:hover{
     width: 37%;
 }
 
-@media (max-width: 600px){
+@media (max-width: 450px){
     .section-one{
         background-image: url(./img/back1.png);
         background-size: cover;
@@ -146,7 +146,7 @@ li a:hover{
 .img-0ne img{
     border-radius: 200px;
 }
-@media (max-width:600px){
+@media (max-width:450px){
     .container-img{
         display: flex;
         flex-direction: column;
@@ -217,7 +217,7 @@ li a:hover{
  .btn-order1 a:hover{
     background: #ffe5e3;
 }
-@media (max-width:600px){
+@media (max-width:450px){
     .container-burger{
         display: flex;
         flex-direction: column;
@@ -297,7 +297,7 @@ li a:hover{
     width: 100%;
     border-radius: 200%;
 }
-@media (max-width:600px){
+@media (max-width:450px){
     .container-burger-two{
         display: flex;
         flex-direction: column;
