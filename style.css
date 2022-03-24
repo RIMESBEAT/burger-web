@@ -302,6 +302,13 @@ li a:hover{
     border-radius: 200%;
 }
 @media (max-width:600px){
+    .section-four{
+        background-color: #f6eedf;
+        background-image: url(./icon/Design1.gif);
+        background-repeat: no-repeat;
+        background-position: center;
+    
+    }
     .container-burger-two{
         display: flex;
         flex-direction: column;
@@ -331,7 +338,7 @@ li a:hover{
     
 }
 .stats-text h2{
-    font-size: 2rem;
+    font-size: 3rem;
     margin-bottom: 1em;
     color: #ffffff;
 }
@@ -375,14 +382,62 @@ li a:hover{
 @media (max-width: 600px){
     .stats-text {
         width: 100%;
-        border: 2px solid;
         margin: 0 auto;
-        flex-direction: row;
-        text-align: left;
-        padding: 2em;
+        padding: 2em 0;
         font-size: 1rem;
+    
+    }
+    .stats-text p{
+        width: 100%;
     }
 }
+.section-six{
+    background: #f6eedf;
+    color: #f64b3d;
+    text-align: center;
+    padding: 4em 0;
+    background-image: url(./icon/Design4.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section-six h2{
+    font-size: 3rem;
+}
 .container-package{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 2em;
+
     
+
+}
+.packages{
+    background: #ffffff;
+    margin: 2em auto;
+    width: 20%;
+    padding: 1.5em 0;
+}
+.packages h6{
+    margin: .5em;
+    font-size: 1rem;
+    color: #f64b3d;
+}
+.packages p{
+    color: #f64b3d;
+    
+}
+@media (max-width:600px){
+    .container-package{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    
+    }
+    .packages{
+        background: #ffffff;
+        margin: 2em auto;
+        width: 50%;
+        padding: 1.5em 0;
+    }
 }
