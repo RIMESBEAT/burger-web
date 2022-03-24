@@ -490,3 +490,12 @@ li a:hover{
         
     }
 }
+.section-eight{
+    background: #f6eedf;
+    color: #f64b3d;
+    text-align: center;
+    padding: 4em 0;
+    background-image: url(./icon/Design4.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
