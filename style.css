@@ -342,13 +342,13 @@ li a:hover{
     align-items: center;
     margin-top: 2em;
     width: 90%;
-    
+        
 }
 .numbers{
     border: 2px solid white;
     border-radius: 50%;
     margin: 1em auto;
-    padding: 4em;
+    padding: 4.5em;
     color: #ffffff;
 }
 .numbers h2{
@@ -356,5 +356,13 @@ li a:hover{
     
 }
 .numbers h6{
-    font-size: .75em;
+    font-size: .85em;
+}
+.stats-text{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+.stats-text p{
+    text-align: center;
 }
