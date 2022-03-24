@@ -80,7 +80,7 @@ li a:hover{
     width: 37%;
 }
 
-@media (max-width: 750px){
+@media (max-width: 600px){
     .section-one{
         background-image: url(./img/back1.png);
         background-size: cover;
@@ -146,15 +146,17 @@ li a:hover{
 .img-0ne img{
     border-radius: 200px;
 }
-@media (max-width:750px){
+@media (max-width:600px){
     .container-img{
         display: flex;
         flex-direction: column;
         margin-top: 2em;
+        margin: 0 auto;
         
     }
     .img-0ne{
         margin-top: 2em;
+        width: 80%;
 
     }
     .section-two p{
@@ -217,7 +219,7 @@ li a:hover{
  .btn-order1 a:hover{
     background: #ffe5e3;
 }
-@media (max-width:750px){
+@media (max-width:600px){
     .container-burger{
         display: flex;
         flex-direction: column;
@@ -232,7 +234,7 @@ li a:hover{
         margin-top: 2em;
     }
     .burger-img{
-        width: 90%;
+        width: 80%;
     }
     
 }
@@ -251,6 +253,7 @@ li a:hover{
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    margin: 0 auto;
     
 }
 .burger-text1{
@@ -297,12 +300,13 @@ li a:hover{
     width: 100%;
     border-radius: 200%;
 }
-@media (max-width:750px){
+@media (max-width:600px){
     .container-burger-two{
         display: flex;
         flex-direction: column;
         align-items: center;
         text-align: center;
+        margin: 0 auto;
         
     }
     .burger-text1{
@@ -312,6 +316,7 @@ li a:hover{
     }
     .burger-img-one{
         width: 80%;
+        
     }
     .btn-order a{
         
@@ -366,13 +371,13 @@ li a:hover{
 .stats-text p{
     text-align: center;
 }
-@media (max-width: 750px){
-    .stats-text p{
+@media (max-width: 600px){
+    .stats-text {
         width: 100%;
         border: 2px solid;
-        display: flex;
-        flex-direction: column;
-        text-align: center;
+        margin: 0 auto;
+        flex-direction: row;
+        text-align: left;
         padding: 2em;
         font-size: 1rem;
     }
