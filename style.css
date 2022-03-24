@@ -195,6 +195,15 @@ li a:hover{
     background-attachment: local;
     }
 }
+@media only screen and (min-width: 600px){
+    .container-img{
+        display: flex;
+        flex-direction: column;
+        margin-top: 2em;
+        margin: 0 auto;
+        
+    }
+}
 .section-three{
     background-color: #f64b3d;
     padding: 5em 0;
