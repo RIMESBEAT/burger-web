@@ -69,18 +69,18 @@ li a:hover{
     
 }
 .hero h2{
-    font-size: 4em;
+    font-size: 4rem;
     color: white;
     font-weight: bold;
 }
 .hero p{
-    font-size: 1.5em;
+    font-size: 1.5rem;
     color: white;
     margin-top: 1em;
     width: 37%;
 }
 
-@media (max-width: 450px){
+@media (max-width: 750px){
     .section-one{
         background-image: url(./img/back1.png);
         background-size: cover;
@@ -131,7 +131,7 @@ li a:hover{
     width: 90%;
 }
 .section-two h2{
-    font-size: 3em;
+    font-size: 3rem;
     line-height: 2em;
 
 }
@@ -146,7 +146,7 @@ li a:hover{
 .img-0ne img{
     border-radius: 200px;
 }
-@media (max-width:450px){
+@media (max-width:750px){
     .container-img{
         display: flex;
         flex-direction: column;
@@ -197,16 +197,16 @@ li a:hover{
 .burger-text h2{
     font-weight: bold;
     color: #ffffff;
-    font-size: 2em;
+    font-size: 2rem;
 }
 .burger-text p{
     color: #ffffff;
     width: 95%;
-    font-size: 1.2em;
+    font-size: 1.2rem;
 }
 .btn-order1 a {
     width: 20%;
-    padding:.6em 1.5em;
+    padding:.6em 1.5rem;
     text-decoration: none;
     background: #ffffff;
     border-radius: 25px;
@@ -217,7 +217,7 @@ li a:hover{
  .btn-order1 a:hover{
     background: #ffe5e3;
 }
-@media (max-width:450px){
+@media (max-width:750px){
     .container-burger{
         display: flex;
         flex-direction: column;
@@ -260,12 +260,12 @@ li a:hover{
     
 }
 .burger-text1 h2{
-    font-size: 2em;
+    font-size: 2rem;
     margin-bottom: 1em;
 }
 .burger-text1 p{
     width: 100%;
-    font-size: 1.2em;
+    font-size: 1.2rem;
     
 }
 .btn-order2{
@@ -297,7 +297,7 @@ li a:hover{
     width: 100%;
     border-radius: 200%;
 }
-@media (max-width:450px){
+@media (max-width:750px){
     .container-burger-two{
         display: flex;
         flex-direction: column;
@@ -325,7 +325,7 @@ li a:hover{
     
 }
 .stats-text h2{
-    font-size: 2em;
+    font-size: 2rem;
     margin-bottom: 1em;
     color: #ffffff;
 }
@@ -365,4 +365,15 @@ li a:hover{
 }
 .stats-text p{
     text-align: center;
+}
+@media (max-width: 750px){
+    .stats-text p{
+        width: 100%;
+        border: 2px solid;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 2em;
+        font-size: 1rem;
+    }
 }
