@@ -441,3 +441,52 @@ li a:hover{
         padding: 1.5em 0;
     }
 }
+.section-seven{
+    background-image: url(./img/image.gif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 5em 0;
+    height: 60vh;
+
+}
+.description{
+    width: 90%;
+    margin: 10em auto;
+    
+}
+.des-text{
+    margin: 6em;
+    text-align: center;
+    color: #ffffff;
+}
+.des-text p{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.des-text h2{
+    font-size: 3rem;
+    line-height: 2em;
+}
+    @media (max-width:600px){
+        
+    .des-text{
+        margin: 2em;
+        text-align: center;
+        color: #ffffff;
+    }
+    .des-text p{
+        font-size: 1.5rem;
+        font-weight: bold;
+        text-align: center;
+    }
+    .des-text h2{
+        font-size: 2rem;
+        line-height: 2em;
+    }
+    .description{
+        width: 90%;
+        margin: 5em auto;
+        
+    }
+}
