@@ -476,8 +476,7 @@ li a:hover{
         color: #ffffff;
     }
     .des-text p{
-        font-size: 1.5rem;
-        font-weight: bold;
+        font-size: 1em;
         text-align: center;
     }
     .des-text h2{
@@ -498,4 +497,52 @@ li a:hover{
     background-image: url(./icon/Design4.gif);
     background-repeat: no-repeat;
     background-size: cover;
+}
+.des-text1{
+    margin: 6em;
+    text-align: center;
+    color: #f64b3d;
+}
+.des-text1 p{
+    font-size: 2rem;
+}
+.des-text1 h2{
+    font-size: 3rem;
+    line-height: 2em;
+}
+#subscribe{
+    padding: .75em;
+    border-radius: 25px 0 0 25px;
+    border: none;
+}
+.sub-btn{
+    background-color: #f64b3d;
+    border-radius:0 25px  25px 0 ;
+    border: none;
+    cursor: pointer;
+    padding: .80em 2em;
+    transition: 0.3s ease;
+    color: #ffffff;
+
+}
+.sub-btn:hover{
+    background-color: #c2463b;
+}
+@media (max-width:600px){
+    .des-text1{
+        margin: 2em;
+        text-align: center;
+        color: #f64b3d;
+    }
+    .des-text1 p{
+        font-size: 2rem;
+    }
+    .des-text1 h2{
+        font-size: 1.5rem;
+        line-height: 1em;
+    }
+    .des-text1 p{
+        font-size: 1rem;
+        margin-top: 2em;
+    }
 }
