@@ -166,7 +166,7 @@ li a:hover{
     }
     .img-0ne img{
         border-radius: 200px;
-        width: 50%;
+        width: 60%;
     }
     .section-two p{
         width: 100%;
@@ -486,6 +486,15 @@ li a:hover{
         text-align: center;
         color: #ffffff;
     }
+    .section-seven{
+        background-image: url(./img/image.gif);
+        background-size: cover;
+        background-position: unset;
+        background-repeat: no-repeat;
+        padding: 1em 0;
+        height: 50vh;
+    
+    }
     .des-text p{
         font-size: 1em;
         text-align: center;
@@ -555,6 +564,24 @@ li a:hover{
     .des-text1 p{
         font-size: 1rem;
         margin-top: 2em;
+    }
+    #subscribe{
+        padding: .75em;
+        border-radius: 25px 0 0 25px;     
+        width: 25%;
+
+    }
+    .sub-btn{
+        background-color: #f64b3d;
+        border-radius:0 25px  25px 0 ;
+        border: none;
+        cursor: pointer;
+        padding: .5em 0;
+        transition: 0.3s ease;
+        color: #ffffff;
+        border: 2px solid green;
+        width: 24%;
+    
     }
 }
 .section-nine{
