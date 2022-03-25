@@ -84,6 +84,7 @@ li a:hover{
     .section-one{
         background-image: url(./img/back1.png);
         background-size: cover;
+        height: 60vh;
     }
     .hero{
         display: flex;
