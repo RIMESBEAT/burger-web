@@ -138,12 +138,15 @@ li a:hover{
 
 }
 .section-two h6{
-    line-height: 2em;
+    line-height: 1em;
     font-weight: lighter;
 }
 .section-two p{
     width: 40%;
     margin: 0 auto;
+}
+.section-two h3{
+    font-size: .9rem;
 }
 .img-0ne img{
     border-radius: 200px;
@@ -158,8 +161,12 @@ li a:hover{
     }
     .img-0ne{
         margin-top: 2em;
-        width: 80%;
+        width: 100%;
 
+    }
+    .img-0ne img{
+        border-radius: 200px;
+        width: 50%;
     }
     .section-two p{
         width: 100%;
@@ -169,6 +176,9 @@ li a:hover{
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: local;
+    }
+    .section-two h3{
+        font-size: .9rem;
     }
 }
 .section-three{
